@@ -1,0 +1,2 @@
+# Type 'string' is not assignable to type 'Date'
+This repository contains a simple TypeScript program that demonstrates a common type error: assigning a string to a Date variable. The bug is in the `greet` function, where the `date` parameter is declared as `Date`, but the function attempts to assign a string to it. The solution involves changing the parameter type to `string`.
